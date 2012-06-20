@@ -1,4 +1,6 @@
 Ankath::Application.routes.draw do
+  match '*a', :to => 'page#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
