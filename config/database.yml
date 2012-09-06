@@ -3,7 +3,8 @@ common: &common
   username: root
   encoding: unicode
   pool: 5
-  password:
+  password: pass
+  host: localhost
 
 development:
   <<: *common
