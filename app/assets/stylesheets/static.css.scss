@@ -1,5 +1,9 @@
+@import 'bootstrap/mixins';
+@import 'bootstrap/reset';
+
 body {
   min-width: 1080px;
+  min-height: 700px;
   background: white;
   margin: 0;
   padding: 0;
@@ -11,19 +15,22 @@ body {
 p {
   margin: 0;
   padding: 0;
+  display: block;
 }
 
 div {
   margin: 0;
   padding: 0;
   position: relative;
+  display: block;
 }
 
 .wrapper {
   width: 1080px;
   height: 100%;
+  min-height: 700px;
   margin: 0 auto;
-  padding: 0;
+  padding: 20px 0;
   background-image: image-url('background.png');
   background-repeat: no-repeat;
 }
@@ -39,14 +46,46 @@ div {
 
 .container {
   width: 700px;
-  height: 100%;
-  top: 20px;
-  left: 170px;
+  margin: 16px 0 0 170px;
 }
 
 .logo {
-  top: 16px;
   width: 439px;
   height: 92px;
   background-image: image-url('logo.png');
+}
+
+.menu {
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px #888;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  margin: 10px 0 10px;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 15px;
+  }
+
+  li {
+    padding: 0 10px 0 5px;
+    float: left;
+    display: block;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.content {
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px #888;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  margin: 10px 0 10px;
 }
