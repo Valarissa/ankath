@@ -1,0 +1,19 @@
+<%= form_for @photo,  :url => {:action => "create"},
+                      :html => {:class => "photo_upload_form"} do |f| %>
+  <div class="upload">
+    <%= f.label :image, "Image:" %>
+    <%= f.file_field :image %>
+  </div>
+  <div class="name">
+    <%= f.label :name, "Name:" %>
+    <%= f.text_field :name %>
+  </div>
+  <div class="description">
+    <%= f.label :description, "Description:" %>
+    <%= f.text_area :description %>
+  </div>
+
+  <div class="submit">
+    <%= f.submit "Create" %>
+  </div>
+<% end %>

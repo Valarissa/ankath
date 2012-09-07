@@ -1,0 +1,7 @@
+<% @photos.each do |photo| %>
+  <div class="photo">
+    <%= link_to photo do %>
+      <%= image_tag photo.filepath, :title => photo.name, :alt => photo.description %>
+    <% end %>
+  </div>
+<% end %>
