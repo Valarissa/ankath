@@ -1,4 +1,6 @@
 ---
+carlson_antique-italic.ttf: carlson_antique-italic-b47ad61a40caef4369568cd126e5e10a.ttf
+carlson_antique.ttf: carlson_antique-e8e76d0471f7a55d53cd48c67e6a2d1b.ttf
 background.png: background-f08f852e5e4901188d3b3b4df9b853b4.png
 e_border.png: e_border-fd808ef4d6cf5bbc3b6e7d29af3e58f8.png
 ink_blot.png: ink_blot-c2f85acb056004ddf9f10cf09d11ab32.png
@@ -11,6 +13,6 @@ se_corner.png: se_corner-097115b54688d15b73d9d6892a00e02b.png
 sw_corner.png: sw_corner-ad8e50fb2de0e5270cb2b148c78958ab.png
 w_border.png: w_border-5ec558f414afebca0a1c64378e989159.png
 application.js: application-dd1aaed404f5409ac2e31d346ae87f08.js
-application.css: application-5289e589024b265a5dc118fb7988d7ba.css
+application.css: application-2745aced3474cec37d52f3a03b1e8451.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-13553a5bf21ae3cc374006592488ec64.png
 glyphicons-halflings.png: glyphicons-halflings-f6675c325532ec11a984d58e172b8e2a.png

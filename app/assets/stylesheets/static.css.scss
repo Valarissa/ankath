@@ -1,6 +1,16 @@
 @import 'bootstrap/mixins';
 @import 'bootstrap/reset';
 
+@font-face {
+  font-family: Carlson-Antique;
+  src: url('carlson_antique.ttf');
+}
+@font-face {
+  font-family: Carlson-Antique;
+  font-style: italic;
+  src: url('carlson_antique-italic.ttf');
+}
+
 body {
   min-width: 1080px;
   min-height: 700px;
@@ -64,13 +74,15 @@ div {
 
   ul {
     margin: 0;
-    padding: 0;
+    padding: 5px 0 0;
     list-style: none;
     height: 15px;
+    font-family: Carlson-Antique;
+    font-size: 20px;
   }
 
   li {
-    padding: 0 10px 0 5px;
+    padding: 0 10px 0 15px;
     float: left;
     display: block;
   }
@@ -79,6 +91,10 @@ div {
     color: black;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  a:hover {
+    text-shadow: 0 0 3px #888;
   }
 }
 
